@@ -1,3 +1,4 @@
+__background__
 person
 bicycle
 car
@@ -7,11 +8,11 @@ bus
 train
 truck
 boat
-traffic light
-fire hydrant
-unknown!!!
-stop sign
-parking meter
+trafficlight
+firehydrant
+N/A
+stopsign
+parkingmeter
 bench
 bird
 cat
@@ -23,27 +24,27 @@ elephant
 bear
 zebra
 giraffe
-unknown!!!
+N/A
 backpack
 umbrella
-unknown!!!
-unknown!!!
+N/A
+N/A
 handbag
 tie
 suitcase
 frisbee
 skis
 snowboard
-sports ball
+sportsball
 kite
-baseball bat
-baseball glove
+baseballbat
+baseballglove
 skateboard
 surfboard
-tennis racket
+tennisracket
 bottle
-unknown!!!
-wine glass
+N/A
+wineglass
 cup
 fork
 knife
@@ -55,36 +56,36 @@ sandwich
 orange
 broccoli
 carrot
-hot dog
+hotdog
 pizza
 donut
 cake
 chair
 couch
-potted plant
+pottedplant
 bed
-unknown!!!
-dining table
-unknown!!!
-unknown!!!
+N/A
+diningtable
+N/A
+N/A
 toilet
-unknown!!!
+N/A
 tv
 laptop
 mouse
 remote
 keyboard
-cell phone
+cellphone
 microwave
 oven
 toaster
 sink
 refrigerator
-unknown!!!
+N/A
 book
 clock
 vase
 scissors
-teddy bear
-hair drier
+teddybear
+hairdrier
 toothbrush

@@ -32,7 +32,7 @@ while camera.isOpened():
         x1, y1, x2, y2 = map(int, box)
         color = (0, 255, 0)
         cv2.rectangle(frame, (x1, y1), (x2, y2), color, 2)
-        print(label, classes[label - 1])
+        print(label, classes[label])
     cv2.imshow("frame", frame)
     key_code = cv2.waitKey(1)
     if key_code in [27, ord('q')]:
