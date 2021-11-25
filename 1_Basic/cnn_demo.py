@@ -17,7 +17,9 @@ while camera.isOpened():
     success, frame = camera.read()
     if not success: break
 
-    image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+    h, w, c = frame.shape
+    image = frame[:, (w - h) // 2:w - (w - h) // 2, :]
+    image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     image = torch.as_tensor(image, dtype=torch.float32)
     image = image / 255
     image = torch.permute(image, (2, 0, 1))
